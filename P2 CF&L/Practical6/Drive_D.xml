@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<driveimage creator="DriveImage XML - Private Edition" version="Version 2.60" time="2021-01-02T02:41:34.215+05:30" destpath="C:\Users\chaub\Desktop\" filename="Drive_D" compressed="TRUE" compressionengine="2" raw="FALSE" split="FALSE" password="FALSE" id="1206352450">
+<!-- 
+This XML document describes a drive image created with Runtime Software's DriveImageXML.
+It uses the following XML tags:
+<driveimage>      - the root node
+    Attributes:
+        creator    - application that created this image (usually "DriveImage XML")
+        version    - version of the application that created this image (e.g. "Version 1.00")
+        time       - date and time this image was created (e.g. "2005-09-08T23:40:03.767-08:00")
+        destpath   - path where this image was originally written to (e.g. "X:\backup\")
+        filename   - original name of this image file (e.g. "Drive_C")
+        compressed - accompanying binary file is compressed
+        raw        - the image is a raw image
+        split      - accompanying binary file is split in CD-ROM sized files
+        password   - a password will be required for browsing or restoring of the image
+        id         - a unique identifier for this image
+<drive>           - opening tag for the drive that follows
+<driveletter>     - the original drive letter of the imaged drive
+<drivelabel>      - the label of the imaged drive
+<totalspace>      - capacity of the imaged drive in bytes
+<freespace>       - unused space on the imaged drive in bytes
+<usedlock>        - how the drive was locked during imaging:
+                    V = Volume Shadow Services (VSS)
+                    L = Volume locking
+                    A = no lock
+<filesystem>      - drive's file system (e.g. "NTFS")
+<bootsector>      - the drive's mime-encoded boot sector
+<physicaldrive>   - the physical drive's name (e.g. "DISK0")
+<physicaldrive>   - the partition on the physical drive (e.g. "1")
+<physicaloffset>  - the offset the partition starts on the physical drive (e.g. "63")
+<physicalsectors> - the length of the partition on the physical drive in sectors (e.g. "16002", which is 8 MB)
+<physicalcapacity>- the size of the physical drive in sectors (e.g. "195371568", which is 95 GB)
+<physicalidename> - the IDE name of the physical drive (e.g. "ST9100823A")
+<clustersize>     - number of sectors per cluster (e.g. "8")
+<bitmap>          - opening tag for the drive's bitmap of used clusters
+<bitmapcount>     - number of contiguous fragments (e.g. "6")
+<bitmapitem>      - description of one contiguous fragment (e.g. "0,5016", which means 5016 clusters beginning at cluster 0)
+<overhead>        - number of sectors outside the cluster based address space (e.g. "0,0")
+<filetree>        - opening tag for the file tree
+    Attributes:
+        rootname   - file path parsed for obtaining the file tree (e.g. "\\?\C:")
+NOTE: The following tags are very short because they are repeated for every single file.
+<d>               - opening tag for a directory
+<f>               - opening tag for a file
+<n>               - file name (e.g. "myfile.txt")
+<a>               - alternate file name (e.g. "MYFILE~1.TXT")
+<map>             - opening tag for the file's cluster map
+<mc>              - number of contiguous file fragments (e.g. "2")
+<m>               - description of one contiguous file fragment (e.g. "5007,7", which means 7 clusters beginning at cluster 5007
+<locationunknown> - indicates the content could not be located. You won't be able to browse this file.
+<content>         - entire file content for small files
+<at>              - the file's attributes (e.g. "$00000020", which means "Archive set")
+<ct>              - file create time (e.g. "2005-07-04T03:18:39.308-08:00")
+<mt>              - file modificatioin time (e.g. "2005-07-04T03:18:39.308-08:00")
+<lt>              - last access time (e.g. "2005-07-04T03:18:39.308-08:00")
+<s>               - file size in bytes
+<i>               - file index
+
+ --><drive>
+<driveletter>D:</driveletter>
+<drivelabel>New Volume</drivelabel>
+<totalspace>104856547328</totalspace>
+<freespace>104756064256</freespace>
+<usedlock>V</usedlock>
+<shadowname>\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5</shadowname>
+<filesystem>NTFS</filesystem>
+<bootsector>61KQTlRGUyAgICAAAggAAAAAAAAA+AAAPwD/AADAVC8AAAAAgACAAP/3NAwAAAAAAAAMAAAAAAACAAAAAAAAAPYAAAABAAAAV8LOQPTOQG4AAAAA+jPAjtC8AHz7aMAHHx5oZgDLiBYOAGaBPgMATlRGU3UVtEG7qlXNE3IMgftVqnUG98EBAHUD6d0AHoPsGGgaALRIihYOAIv0Fh/NE5+DxBieWB9y4TsGCwB126MPAMEuDwAEHloz27kAICvIZv8GEQADFg8AjsL/BhYA6EsAK8h377gAu80aZiPAdS1mgftUQ1BBdSSB+QIBch4WaAe7FmhSERZoCQBmU2ZTZlUWFhZouAFmYQ4HzRozwL8KE7n2DPzzqun+AZCQZmAeBmahEQBmAwYcAB5maAAAAABmUAZTaAEAaBAAtEKKFg4AFh+L9M0TZllbWmZZZlkfD4IWAGb/BhEAAxYPAI7C/w4WAHW8Bx9mYcOh9gHoCQCh+gHoAwD06/2L8Kw8AHQJtA67BwDNEOvyww0KQSBkaXNrIHJlYWQgZXJyb3Igb2NjdXJyZWQADQpCT09UTUdSIGlzIGNvbXByZXNzZWQADQpQcmVzcyBDdHJsK0FsdCtEZWwgdG8gcmVzdGFydA0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIoBpwG/AQAAVao=</bootsector>
+<physicaldrive>DISK0</physicaldrive>
+<physicalpartition>4</physicalpartition>
+<physicaloffset>794083328</physicaloffset>
+<physicalsectors>204797952</physicalsectors>
+<physicalcapacity>1000215216</physicalcapacity>
+<physicalidename></physicalidename>
+<clustersize>8</clustersize>
+<bitmap><bitmapcount>5</bitmapcount>
+<bitmapitem>0,6277</bitmapitem>
+<bitmapitem>6280,16</bitmapitem>
+<bitmapitem>769265,17231</bitmapitem>
+<bitmapitem>1352660,1277952</bitmapitem>
+<bitmapitem>2630628,1</bitmapitem>
+</bitmap>
+<overhead>0,0</overhead>
+<filetree rootname="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5">
+<d><n>$RECYCLE.BIN</n>
+<a></a>
+<at>$00000016</at>
+<ct>2021-01-01T23:21:55.030+05:30</ct>
+<mt>2021-01-01T23:21:55.031+05:30</mt>
+<lt>2021-01-01T23:21:55.031+05:30</lt>
+<s>0</s>
+<d><n>S-1-5-21-2947219545-4209606537-1729959409-1001</n>
+<a></a>
+<at>$00000016</at>
+<ct>2021-01-01T23:21:55.031+05:30</ct>
+<mt>2021-01-02T01:01:49.735+05:30</mt>
+<lt>2021-01-02T01:01:49.735+05:30</lt>
+<s>0</s>
+<f><n>$IMH5Y8A.txt</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T01:01:49.735+05:30</ct>
+<mt>2021-01-02T01:01:49.735+05:30</mt>
+<lt>2021-01-02T01:01:49.735+05:30</lt>
+<s>72</s>
+<i>$1000000000031</i>
+<content>AgAAAAAAAAAdAwAAAAAAAGCAE8B04NYBFgAAAEQAOgBcAEMARgBQAFwAdwBvAHIAZABzAGUAYQByAGMAaAAuAHQAeAB0AAAA</content>
+</f>
+<f><n>$RMH5Y8A.txt</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T00:59:35.786+05:30</ct>
+<mt>2021-01-02T00:59:52.142+05:30</mt>
+<lt>2021-01-02T00:59:52.142+05:30</lt>
+<s>797</s>
+<i>$200000000002F</i>
+<map><mc>1</mc>
+<m>6270,1</m>
+</map>
+</f>
+<f><n>desktop.ini</n>
+<a></a>
+<at>$00000026</at>
+<ct>2021-01-01T23:21:55.032+05:30</ct>
+<mt>2021-01-01T23:21:55.034+05:30</mt>
+<lt>2021-01-01T23:21:55.034+05:30</lt>
+<s>129</s>
+<i>$100000000002A</i>
+<content>Wy5TaGVsbENsYXNzSW5mb10NCkNMU0lEPXs2NDVGRjA0MC01MDgxLTEwMUItOUYwOC0wMEFBMDAyRjk1NEV9DQpMb2NhbGl6ZWRSZXNvdXJjZU5hbWU9QCVTeXN0ZW1Sb290JVxzeXN0ZW0zMlxzaGVsbDMyLmRsbCwtODk2NA0K</content>
+</f>
+</d></d><d><n>CFP</n>
+<a></a>
+<at>$00000010</at>
+<ct>2021-01-01T23:51:51.745+05:30</ct>
+<mt>2021-01-02T02:27:36.283+05:30</mt>
+<lt>2021-01-02T02:27:36.283+05:30</lt>
+<s>0</s>
+<f><n>DriverImage.docx</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T02:27:35.957+05:30</ct>
+<mt>2021-01-02T02:27:36.064+05:30</mt>
+<lt>2021-01-02T02:27:36.064+05:30</lt>
+<s>11780</s>
+<i>$1000000000034</i>
+<map><mc>1</mc>
+<m>6274,3</m>
+</map>
+</f>
+<f><n>FileSearch.java</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T00:54:46.940+05:30</ct>
+<mt>2021-01-02T00:54:46.940+05:30</mt>
+<lt>2021-01-02T00:54:46.940+05:30</lt>
+<s>784</s>
+<i>$200000000002D</i>
+<map><mc>1</mc>
+<m>6269,1</m>
+</map>
+</f>
+<f><n>mylogger.java</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-01T23:52:15.886+05:30</ct>
+<mt>2021-01-02T00:53:21.471+05:30</mt>
+<lt>2021-01-02T00:53:21.471+05:30</lt>
+<s>513</s>
+<i>$200000000002C</i>
+<content>aW1wb3J0IGphdmEuaW8uKjsNCmltcG9ydGphdmEudXRpbC5sb2dnaW5nLio7DQpwdWJsaWMgY2xhc3MgbXlsb2dnZXINCnsNCnB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZyBhcmdzW10pDQp7DQpMb2dnZXIgbD1Mb2dnZXIuZ2V0TG9nZ2VyKG15bG9nZ2VyLmNsYXNzLmdldE5hbWUoKSk7DQpGaWxlSGFuZGxlcmZoOw0KdHJ5DQp7DQpmaD1uZXcgRmlsZUhhbmRsZXIoImM6L215bG9nZmlsZS5sb2ciLHRydWUpOw0KbC5hZGRIYW5kbGVyKGZoKTsNCmwuc2V0TGV2ZWwoTGV2ZWwuQUxMKTsNClNpbXBsZUZvcm1hdHRlcnNmPW5ldyBTaW1wbGVGb3JtYXR0ZXIoKTsNCmZoLnNldEZvcm1hdHRlcihzZik7DQpsLmluZm8oIk15IGZpcnN0IGxvZyIpOw0KfQ0KY2F0Y2goU2VjdXJpdHlFeGNlcHRpb24gZSkNCnsNCmUucHJpbnRTdGFja1RyYWNlKCk7DQp9DQoxNg0KY2F0Y2goSU9FeGNlcHRpb24gZSkNCnsNCmUucHJpbnRTdGFja1RyYWNlKCk7DQp9DQpsLmluZm8oIkhpIEhvdyByIHU/Iik7DQp9DQp9</content>
+</f>
+<f><n>Virus.java</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T01:03:00.940+05:30</ct>
+<mt>2021-01-02T01:03:00.940+05:30</mt>
+<lt>2021-01-02T01:03:00.940+05:30</lt>
+<s>295</s>
+<i>$2000000000032</i>
+<content>aW1wb3J0amF2YS5pby5GaWxlV3JpdGVyOw0KaW1wb3J0amF2YS5pby5JT0V4Y2VwdGlvbjsNCnB1YmxpYyBjbGFzcyBWaXJ1cw0Kew0KcHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nIGFyZ3NbXSkNCnsNCnRyeQ0Kew0KRmlsZVdyaXRlcmZ3PW5ldyBGaWxlV3JpdGVyKCJjOi92aXJ1cy5kbGwiLHRydWUpOw0Kd2hpbGUodHJ1ZSkNCnsNCmZ3LndyaXRlKCJ2aXJ1cyBoYXMgYmVlbiBhY3RpdmF0ZWQiKTsNCn0NCn0NCmNhdGNoKElPRXhjZXB0aW9uIGUpDQp7DQplLnByaW50U3RhY2tUcmFjZSgpOw0KfQ0KfQ0KfQ==</content>
+</f>
+<f><n>wordsearch.java</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T01:01:46.157+05:30</ct>
+<mt>2021-01-02T01:01:46.157+05:30</mt>
+<lt>2021-01-02T01:01:46.157+05:30</lt>
+<s>797</s>
+<i>$2000000000030</i>
+<map><mc>1</mc>
+<m>6271,1</m>
+</map>
+</f>
+<f><n>~$iverImage.docx</n>
+<a></a>
+<at>$00000022</at>
+<ct>2021-01-02T02:27:36.267+05:30</ct>
+<mt>2021-01-02T02:27:36.268+05:30</mt>
+<lt>2021-01-02T02:27:36.268+05:30</lt>
+<s>162</s>
+<i>$1000000000035</i>
+<content>BWNoYXViAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQBjAGgAYQB1AGIAAAAAAPDBf+SJAAAAAAAAAAAAAAAAAAAAAAAAAKN87qcTAgAAgH0h1BMCAABPAnqrEwIAAGAkJMoTAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYCQkyhMCAADNzs2n</content>
+</f>
+</d><f><n>file.txt</n>
+<a></a>
+<at>$00000020</at>
+<ct>2021-01-02T00:55:34.750+05:30</ct>
+<mt>2021-01-02T00:55:34.750+05:30</mt>
+<lt>2021-01-02T00:55:34.750+05:30</lt>
+<s>0</s>
+<i>$100000000002E</i>
+<content></content>
+</f>
+<d><n>System Volume Information</n>
+<a></a>
+<at>$00000016</at>
+<ct>2021-01-01T23:14:52.038+05:30</ct>
+<mt>2021-01-02T02:41:32.494+05:30</mt>
+<lt>2021-01-02T02:41:32.494+05:30</lt>
+<s>0</s>
+</d></filetree></drive></driveimage>
